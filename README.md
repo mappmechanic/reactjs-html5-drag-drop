@@ -25,9 +25,17 @@ yarn install
 ```
 
 ### Step3:
-Making final build using the following command:
+Use this command to run the app locally by starting the dev server:
 ```
 yarn start
 ```
+
+### Step3:
+Making final build using the following command:
+```
+yarn build
+```
+
+The **build** folder will contain the final output.
 
 
