@@ -1,0 +1,87 @@
+body{
+  background: #D3D3D3;
+}
+
+.App {
+  padding: 25px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+}
+
+.addProject{
+  display: flex;
+  flex:6;
+}
+
+.addProject input, .addProject>div{
+  margin-left:10px;
+  line-height: 18px;
+}
+
+.totalProjects{
+  flex:1;
+  justify-content: flex-end;
+  text-align: center;
+  font-weight: bold;
+}
+
+.numberDisplay{
+  display: block;
+  border:0px;
+  background: #fff;
+  padding:10px;
+  box-shadow: inset 0px 0px 6px 0px #4D4D4D,-4px -14px 1px -56px #000000;
+-webkit-box-shadow: inset 0px 0px 6px 0px #4D4D4D,-4px -14px 1px -56px #000000;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.numberDisplay .label{
+  font-weight: normal;
+  font-size:13px;
+}
+
+.buckets{
+  display: flex;
+}
+
+.taskBucket{
+  flex:1;
+  margin: 10px;
+  border:1px solid #aeaeae;
+  user-select: none;
+}
+
+.taskBucket .taskList{
+  height: 420px;
+  overflow-y: scroll;
+}
+
+.taskBucket header{
+  background: #808080;
+  padding:15px;
+  display: flex;
+}
+
+.taskBucket header > .label{
+  flex: 4;
+  color:#fff;
+  font-size: 22px;
+}
+
+.taskBucket .noDisplay{
+  flex: 1;
+  color:#000;
+}
+
+.taskBucket .taskList .listItem{
+  background: #fff;
+  padding:25px 15px;
+  margin:2px 0px;
+  cursor: pointer;
+  user-select: none;
+}
