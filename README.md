@@ -15,7 +15,7 @@ It can be used in almost all Desktop Based Browsers. Do not use this API if you 
 In order to clone the repo run the following command
 
 ```
-git clone 
+git clone https://github.com/mappmechanic/reactjs-html5-drag-drop.git
 ```
 
 ### Step2:
